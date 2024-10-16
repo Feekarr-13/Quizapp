@@ -1,0 +1,121 @@
+:root {
+    --hero-height: 70vh;
+    --hero-padding: 73px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--hero-padding);
+    height: var(--hero-height);
+    background: linear-gradient(45deg, #5c4ee5, #8a44f5);
+    position: relative;
+    color: white;
+}
+
+.hero-text {
+    flex: 1;
+    margin-right: 20px;
+    z-index: 2;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.start-quiz-btn {
+    padding: 10px 20px;
+    background-color: #ffce00;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    z-index: 2;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: right;
+    position: relative;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    z-index: 2;
+    position: relative;
+}
+
+
+/* Styling for the horizontal bars */
+
+.bars {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* Align bars to the bottom so they grow upwards */
+    gap: 30px;
+    /* Increase gap between bars */
+    z-index: 1;
+}
+
+.bar {
+    width: 80px;
+    /* Increase bar width */
+    background: linear-gradient(180deg, #4D28A4, #8859ff);
+    border-radius: 10px;
+    /* Increase the corner radius for a smoother look */
+}
+
+:root {
+    --bar-1-height: 350px;
+    --bar-2-height: 400px;
+    --bar-3-height: 450px;
+}
+
+.bar-1 {
+    height: var(--bar-1-height);
+}
+
+.bar-2 {
+    height: var(--bar-2-height);
+}
+
+.bar-3 {
+    height: var(--bar-3-height);
+}
+
+
+/* Media Queries for responsive design */
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+    .hero-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .hero-image {
+        text-align: center;
+    }
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    .start-quiz-btn {
+        font-size: 0.9rem;
+    }
+}

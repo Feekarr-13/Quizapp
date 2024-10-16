@@ -1,0 +1,98 @@
+/* Container untuk seluruh section */
+
+.feature-section-container {
+    position: relative;
+    /* Agar child elements bisa diposisikan absolute */
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* Untuk memastikan elemen di dalamnya berada di tengah */
+}
+
+
+/* Box melayang yang menampung quiz cards */
+
+.feature-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: -100px;
+    /* Mengangkat box ke atas sehingga terlihat melayang */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Menempatkan box di tengah secara horizontal */
+    z-index: 3;
+    /* Memastikan box tetap terlihat di atas baris */
+}
+
+
+/* Card untuk setiap quiz */
+
+.quiz-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Card tengah dengan warna ungu */
+
+.middle-card {
+    background-color: #4d00d0;
+    color: #fff;
+    /* Ubah warna teks agar kontras dengan latar belakang */
+}
+
+.quiz-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Gambar quiz */
+
+.quiz-image {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+/* Judul quiz */
+
+* Warna teks untuk masing-masing card */ .card-1 h3 {
+    color: #ff5733;
+    /* Warna untuk card pertama */
+}
+
+.card-2 h3 {
+    color: #33c1ff;
+    /* Warna untuk card kedua (middle card) */
+}
+
+.card-3 h3 {
+    color: #000000;
+    /* Warna untuk card ketiga */
+}
+
+
+/* Card tengah dengan warna ungu */
+
+.middle-card {
+    background-color: #9048fc;
+}
+
+.middle-card h3 {
+    color: #fff;
+    /* Judul quiz di middle card menjadi putih */
+}

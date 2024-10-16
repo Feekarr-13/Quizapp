@@ -1,0 +1,178 @@
+/* Mengatur tampilan umum header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #5c3aff, #9048fc);
+}
+
+
+/* Styling logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* Agar logo dan teks sejajar secara vertikal */
+    white-space: nowrap;
+    /* Mencegah teks turun ke baris berikutnya */
+}
+
+.logo img {
+    width: 40px;
+    /* Atur ukuran logo sesuai kebutuhan */
+    height: 40px;
+}
+
+
+/* Menambahkan styling untuk nama aplikasi di sebelah logo */
+
+.app-name {
+    margin-left: 10px;
+    /* Beri jarak antara logo dan teks */
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    /* Warna teks */
+}
+
+
+/* Menyusun link navigasi */
+
+
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4a4a4a;
+    /* Contoh warna latar belakang header */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.app-name {
+    margin-left: 10px;
+    font-size: 24px;
+    color: white;
+    /* Warna teks untuk nama aplikasi */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* Gaya untuk dropdown */
+
+.dropdown select {
+    background-color: #6f42c1;
+    /* Warna latar belakang dropdown */
+    color: white;
+    /* Warna teks dropdown */
+    border: none;
+    /* Menghapus border default */
+    padding: 10px;
+    /* Padding di dalam dropdown */
+    border-radius: 5px;
+    /* Membulatkan sudut dropdown */
+    cursor: pointer;
+    /* Mengubah cursor saat hover */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* Gaya untuk opsi dropdown saat hover */
+
+.dropdown select option {
+    background-color: #FFFFFF;
+    /* Warna latar belakang opsi */
+    color: black;
+    /* Warna teks opsi */
+}
+
+
+/* Mengubah warna saat dropdown dibuka */
+
+.dropdown select:focus {
+    outline: none;
+    /* Menghapus outline default saat dropdown fokus */
+}
+
+
+/* Mengatur tombol login dan sign-in */
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #6648b1;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* Hover effect untuk tombol login dan sign-in */
+
+.auth-buttons button:hover {
+    background-color: #FFD600;
+    color: #4A148C;
+}
+
+
+/* Menyusun link navigasi */
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Mengatur tombol login dan sign-in */
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: #4A148C;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* Hover effect untuk tombol login dan sign-in */
+
+.auth-buttons button:hover {
+    background-color: #FFD600;
+    color: #4A148C;
+}
