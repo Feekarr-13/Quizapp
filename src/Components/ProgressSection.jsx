@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestionCircle, faChartBar, faChartLine, faTrophy } from '@fortawesome/free-solid-svg-icons';
-import './progressSection.css';
+import './ProgressSection.css';
 const ProgressAndSuccess = () => {
   return (
     <div className="progress-container"data-aos="fade-up">
