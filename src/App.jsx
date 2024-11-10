@@ -4,6 +4,9 @@ import Login from './Page/Login';
 import SignUp from './Page/SignUp';
 import './App.css';
 import AboutUs from './Components/AboutUs';
+import QuizPage from './Components/QuizPage';
+
+
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
 
         {/* Route untuk halaman sign-up */}
         <Route path="/Signup" element={<SignUp />} />
+        <Route path="/Quiz" element={<QuizPage />} />
       </Routes>
     </Router>
   );
