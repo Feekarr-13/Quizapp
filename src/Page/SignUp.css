@@ -1,0 +1,229 @@
+/* General styling for the container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px 40px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    padding-bottom: 400px;
+}
+
+
+/* Sign-up container with flexbox for centering content */
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center content horizontally */
+    justify-content: center;
+    /* Center content vertically */
+    background-color: #f5f5f5;
+    padding: 20px 40px;
+    /* Adjust the padding */
+    width: 100%;
+    width: 1200px;
+    /* Set a max-width for the form */
+    margin-bottom: 20px;
+    /* Space between form and footer */
+}
+
+
+/* Sign-up box with content inside */
+
+.signup-box {
+    background: linear-gradient(135deg, #5e1aff, #8338ec);
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 100%;
+    width: 400px;
+    /* Set a max width for the login box */
+    text-align: center;
+    color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    /* Center the login box */
+}
+
+
+/* Center "Create Your Account" heading and ensure input fields are the same width */
+
+.signup-box h2 {
+    text-align: center;
+    /* Center the heading */
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Ensures the form uses full width of the container */
+    max-width: 400px;
+    /* Set a consistent width for form input fields */
+    margin: 0 auto;
+    /* Center the form within the signup box */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    /* Make input fields take full width of the form */
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 8px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    /* Prevents padding from affecting width */
+}
+
+
+/* Footer styling (to extend full width and stay at the bottom) */
+
+.signup-footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.signup-box p {
+    margin: 10px 0 20px;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+
+/* Google Sign-Up button */
+
+.google-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e0e0;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    /* Make the button width 100% of the container */
+}
+
+.google-signup img {
+    width: 18px;
+    margin-right: 8px;
+}
+
+
+/* "OR" separator */
+
+.or {
+    margin: 15px 0;
+    color: #dcdcdc;
+    font-size: 14px;
+}
+
+
+/* Form styling */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Full width of the container */
+}
+
+form label {
+    font-size: 14px;
+    color: #dcdcdc;
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+
+/* Terms checkbox */
+
+.terms-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #dcdcdc;
+    margin-top: 8px;
+}
+
+.terms-checkbox input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+/* Sign-up button */
+
+.signup-button {
+    background-color: #ffeb3b;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+/* Disabled sign-up button */
+
+.signup-button:disabled {
+    background-color: #fefe0c;
+    cursor: not-allowed;
+}
+
+
+/* Login text */
+
+.login-text {
+    color: #f4e404;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.login-text a {
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+.login-link {
+    color: #ffeb3b;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}

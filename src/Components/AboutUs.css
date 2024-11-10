@@ -1,0 +1,57 @@
+.Aboutus {
+    scroll-behavior: smooth;
+}
+
+.about-us-section {
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 2rem 1rem;
+    width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.about-us-title {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    /* Dynamic font size */
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.about-us-text {
+    font-size: 1.0rem;
+    color: #333;
+    line-height: 1.7;
+    margin: 1rem 0;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    padding-left: 15rem;
+    width: 100%;
+}
+
+.about-us-button {
+    background-color: #FFD700;
+    color: #000;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+}
+
+.about-us-button:hover {
+    background-color: #e5c200;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Membuat scroll halus */
+}

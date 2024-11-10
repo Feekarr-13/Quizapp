@@ -2,7 +2,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer"data-aos="fade-up">
       <div className="footer-container">
         <div className="footer-section logo-section">
         <div className="logo-container">
@@ -17,19 +17,19 @@ function Footer() {
           <h3>Important menu</h3>
           <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#paket">Paket</a></li>
-            <li><a href="#jenjang">Jenjang</a></li>
+            <li><a href="#paket"> About</a></li>
+            <li><a href="#jenjang">Progress</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
 
         <div className="footer-section important-menu">
-          <h3>Important menu</h3>
+          <h3>Suport</h3>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#paket">Paket</a></li>
-            <li><a href="#jenjang">Jenjang</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home">Contact</a></li>
+            <li><a href="#paket">Terms</a></li>
+            <li><a href="#jenjang">Privacy</a></li>
+            <li><a href="#contact">Site Map</a></li>
           </ul>
         </div>
 

@@ -3,14 +3,11 @@ import { faQuestionCircle, faChartBar, faChartLine, faTrophy } from '@fortawesom
 import './progressSection.css';
 const ProgressAndSuccess = () => {
   return (
-    <div className="progress-container">
+    <div className="progress-container"data-aos="fade-up">
       <div className="progress-content">
         <h1>Progress and Success</h1>
         <p>
-          ProProfs Quiz App adalah alat online komprehensif yang dirancang untuk
-          membuat kuis, penilaian, dan ujian interaktif. Dengan antarmuka yang
-          mudah digunakan, pengajar dapat membuat kuis yang menarik dan
-          informatif, yang dapat memenuhi beragam gaya belajar.
+        Quizapp Merupakan platform kuis online yang menggabungkan kesenangan dengan pembelajaran. Kami percaya bahwa kuis adalah cara yang efektif untuk menguji pengetahuan, meningkatkan retensi informasi, dan membangun komunitas. Dengan budaya pop hingga olahraga, kami menyediakan pengalaman belajar yang menyenangkan dan interaksi bagi semua orang.
         </p>
       </div>
       <div className="progress-stats">

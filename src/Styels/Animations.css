@@ -1,0 +1,24 @@
+/* Animasi untuk fade-in */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
+
+/* Animasi slide-up */
+
+.slide-up {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slide-up.visible {
+    transform: translateY(0);
+    opacity: 1;
+}

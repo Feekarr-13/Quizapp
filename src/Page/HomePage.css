@@ -1,0 +1,789 @@
+/* Mengatur tampilan umum header */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #5c3aff, #9048fc);
+}
+
+
+/* Styling logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* Agar logo dan teks sejajar secara vertikal */
+    white-space: nowrap;
+    /* Mencegah teks turun ke baris berikutnya */
+}
+
+.logo img {
+    width: 40px;
+    /* Atur ukuran logo sesuai kebutuhan */
+    height: 40px;
+}
+
+
+/* Menambahkan styling untuk nama aplikasi di sebelah logo */
+
+.app-name {
+    margin-left: 10px;
+    /* Beri jarak antara logo dan teks */
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    /* Warna teks */
+}
+
+
+/* Menyusun link navigasi */
+
+
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4a4a4a;
+    /* Contoh warna latar belakang header */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.app-name {
+    margin-left: 10px;
+    font-size: 24px;
+    color: white;
+    /* Warna teks untuk nama aplikasi */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* Gaya untuk dropdown */
+
+.dropdown select {
+    background-color: #6f42c1;
+    /* Warna latar belakang dropdown */
+    color: white;
+    /* Warna teks dropdown */
+    border: none;
+    /* Menghapus border default */
+    padding: 10px;
+    /* Padding di dalam dropdown */
+    border-radius: 5px;
+    /* Membulatkan sudut dropdown */
+    cursor: pointer;
+    /* Mengubah cursor saat hover */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* Gaya untuk opsi dropdown saat hover */
+
+.dropdown select option {
+    background-color: #FFFFFF;
+    /* Warna latar belakang opsi */
+    color: black;
+    /* Warna teks opsi */
+}
+
+
+/* Mengubah warna saat dropdown dibuka */
+
+.dropdown select:focus {
+    outline: none;
+    /* Menghapus outline default saat dropdown fokus */
+}
+
+
+/* Mengatur tombol login dan sign-in */
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #6648b1;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* Hover effect untuk tombol login dan sign-in */
+
+.auth-buttons button:hover {
+    background-color: #FFD600;
+    color: #4A148C;
+}
+
+
+/* Menyusun link navigasi */
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Mengatur tombol login dan sign-in */
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: #4A148C;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* Hover effect untuk tombol login dan sign-in */
+
+.auth-buttons button:hover {
+    background-color: #FFD600;
+    color: #4A148C;
+}
+
+:root {
+    --hero-height: 70vh;
+    --hero-padding: 73px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--hero-padding);
+    height: var(--hero-height);
+    background: linear-gradient(45deg, #5c4ee5, #8a44f5);
+    position: relative;
+    color: white;
+}
+
+.hero-text {
+    flex: 1;
+    margin-right: 20px;
+    z-index: 2;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: rgb(239, 239, 239);
+}
+
+.start-quiz-btn {
+    padding: 10px 20px;
+    background-color: #ffce00;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    z-index: 2;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: right;
+    position: relative;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    z-index: 2;
+    position: relative;
+}
+
+
+/* Styling for the horizontal bars */
+
+.bars {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* Align bars to the bottom so they grow upwards */
+    gap: 30px;
+    /* Increase gap between bars */
+    z-index: 1;
+}
+
+.bar {
+    width: 80px;
+    /* Increase bar width */
+    background: linear-gradient(180deg, #4D28A4, #8859ff);
+    border-radius: 10px;
+    /* Increase the corner radius for a smoother look */
+}
+
+:root {
+    --bar-1-height: 350px;
+    --bar-2-height: 400px;
+    --bar-3-height: 450px;
+}
+
+.bar-1 {
+    height: var(--bar-1-height);
+}
+
+.bar-2 {
+    height: var(--bar-2-height);
+}
+
+.bar-3 {
+    height: var(--bar-3-height);
+}
+
+
+/* Media Queries for responsive design */
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+    .hero-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .hero-image {
+        text-align: center;
+    }
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    .start-quiz-btn {
+        font-size: 0.9rem;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Container untuk seluruh section */
+
+.feature-section-container {
+    position: relative;
+    /* Agar child elements bisa diposisikan absolute */
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* Untuk memastikan elemen di dalamnya berada di tengah */
+}
+
+
+/* Box melayang yang menampung quiz cards */
+
+.feature-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: -100px;
+    /* Mengangkat box ke atas sehingga terlihat melayang */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Menempatkan box di tengah secara horizontal */
+    z-index: 3;
+    /* Memastikan box tetap terlihat di atas baris */
+}
+
+
+/* Card untuk setiap quiz */
+
+.quiz-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Card tengah dengan warna ungu */
+
+.middle-card {
+    background-color: #4d00d0;
+    color: #fff;
+    /* Ubah warna teks agar kontras dengan latar belakang */
+}
+
+.quiz-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Gambar quiz */
+
+.quiz-image {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+/* Judul quiz */
+
+* Warna teks untuk masing-masing card */ .card-1 h3 {
+    color: #ff5733;
+    /* Warna untuk card pertama */
+}
+
+.card-2 h3 {
+    color: #33c1ff;
+    /* Warna untuk card kedua (middle card) */
+}
+
+.card-3 h3 {
+    color: #000000;
+    /* Warna untuk card ketiga */
+}
+
+
+/* Card tengah dengan warna ungu */
+
+.middle-card {
+    background-color: #9048fc;
+}
+
+.middle-card h3 {
+    color: #fff;
+    /* Judul quiz di middle card menjadi putih */
+}
+
+.about-us-section {
+    text-align: left;
+    padding: 2rem 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.about-us-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1rem;
+    text-align: left;
+    margin-left: -18rem;
+    /* Adjust this value to match the left alignment of "Progress and Success" */
+}
+
+.about-us-text {
+    font-size: 1.0rem;
+    color: #333;
+    line-height: 1.7;
+    margin: 1rem 0;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    /* Keeps the text justified */
+    padding-left: 18rem;
+    /* Shifts the text towards the right */
+    width: 100%;
+    /* Makes the text container wider */
+}
+
+.about-us-button {
+    background-color: #FFD700;
+    color: #000;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 18rem;
+    /* Match the left padding of the text to align the button */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+}
+
+.about-us-button:hover {
+    background-color: #e5c200;
+}
+
+.about-us-button:hover {
+    background-color: #e5c200;
+}
+
+
+/* CSS for ProgressAndSuccess component */
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.progress-content {
+    width: 55%;
+}
+
+.progress-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.progress-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+.progress-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stat-icon {
+    font-size: 2rem;
+    margin-right: 15px;
+    color: #007bff;
+}
+
+.stat-text h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+}
+
+.stat-text p {
+    font-size: 1rem;
+    margin: 0;
+    color: #666;
+}
+
+
+/* Specific colors for each stat item */
+
+.stat-item:nth-child(1) {
+    border-left: 5px solid #007bff;
+}
+
+.stat-item:nth-child(2) {
+    border-left: 5px solid #ff4d4f;
+}
+
+.stat-item:nth-child(3) {
+    border-left: 5px solid #52c41a;
+}
+
+.stat-item:nth-child(4) {
+    border-left: 5px solid #722ed1;
+}
+
+.join-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+.join-us-image {
+    position: relative;
+    width: 1000%;
+    /* Fixed width to prevent image from disappearing */
+    max-width: 500px;
+    /* Adjust max-width as needed */
+    margin-right: 2rem;
+}
+
+.join-us-image img {
+    width: 100%;
+    height: auto;
+}
+
+.join-us-image .join-us-text {
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    padding: 20px 30px;
+}
+
+.join-us-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+.join-us-title {
+    display: flex;
+    width: 591px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 46px;
+}
+
+.join-us-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    /* Set width to keep alignment without shrinking the image */
+    margin-left: 2rem;
+    /* Control the spacing between image and text */
+}
+
+.join-us-right h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.join-us-text {
+    font-size: 1.0rem;
+    color: #333;
+    line-height: 1.7;
+    margin: 1rem 0;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+.join-button {
+    background-color: #FFD700;
+    color: #000;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+    background-color: #e6c200;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .join-us-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .join-us-image {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .join-us-title {
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+    .join-us-right {
+        margin-left: 0;
+        padding-left: 1rem;
+        width: 100%;
+        /* Make it fit the screen width */
+    }
+    .join-us-text {
+        font-size: 0.8rem;
+    }
+    .join-button {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
+
+
+/* Styling umum untuk footer */
+
+.footer {
+    background-color: #f5f5f5;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    /* Menghilangkan bullet points */
+    padding-left: 0;
+    /* Menghilangkan padding default dari <ul> */
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    /* Memberikan sedikit jarak antar item */
+}
+
+
+/* Container untuk logo dan teks */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    /* Agar logo dan teks vertikal di tengah */
+}
+
+
+/* Style untuk logo */
+
+.logo {
+    width: 50px;
+    /* Atur ukuran logo sesuai kebutuhan */
+    height: auto;
+    margin-right: 10px;
+    /* Spasi antara logo dan teks */
+}
+
+
+/* Style untuk teks "Quiz App" */
+
+.app-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* Mengatur section payment */
+
+.payment {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-logo {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+
+/* Mengatur ikon sosial media */
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* Bagian bawah footer */
+
+.footer-bottom {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.footer-links a {
+    margin-left: 15px;
+    color: #333;
+    text-decoration: none;
+}

@@ -1,52 +1,42 @@
-import React, { useState } from 'react'; // Pastikan useState diimpor
-import logo from '/Image/Logo.png'; // Menggunakan import untuk gambar
+import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll'; // Import dari react-scroll
+import logo from '/Image/Logo.png';
 import './Header.css';
 
 function Header() {
-  const [selectedPaket, setSelectedPaket] = useState('');
-  const [selectedJenjang, setSelectedJenjang] = useState('');
-
-  const handlePaketChange = (event) => {
-    setSelectedPaket(event.target.value);
-  };
-
-  const handleJenjangChange = (event) => {
-    setSelectedJenjang(event.target.value);
-  };
-
   return (
-    <React.Fragment>
     <header className="header">
       <div className="logo">
         <img src={logo} alt="Quiz App Logo" />
         <span className="app-name">Quiz App</span>
       </div>
       <nav className="nav">
-        <a href="#home">Home</a>
-        <div className="dropdown">
-          <select value={selectedPaket} onChange={handlePaketChange}>
-            <option value="">Paket</option>
-            <option value="2x-tes">2x Tes</option>
-            <option value="3x-tes">3x Tes</option>
-            <option value="4x-tes">4x Tes</option>
-          </select>
-        </div>
-        <div className="dropdown">
-          <select value={selectedJenjang} onChange={handleJenjangChange}>
-            <option value="">Jenjang</option>
-            <option value="sd">SD</option>
-            <option value="smp">SMP</option>
-            <option value="sma">SMA</option>
-          </select>
-        </div>
-        <a href="#contact">Contact</a>
+        {/* Scroll link untuk section yang ada di halaman yang sama */}
+        <ScrollLink to="HomePage" smooth={true} duration={50}>
+          Home
+        </ScrollLink>
+        <ScrollLink to="AboutUs" smooth={true} duration={50}>
+          About
+        </ScrollLink>
+        <ScrollLink to="ProgressSection" smooth={true} duration={50}>
+          Progress
+        </ScrollLink>
+        <ScrollLink to="JoinUs" smooth={true} duration={50}>
+          JoinUs
+        </ScrollLink>
+        <ScrollLink to="ContactUs" smooth={true} duration={50}>
+          Contact
+        </ScrollLink>
       </nav>
       <div className="auth-buttons">
-        <button>Login</button>
-        <button>Sign In</button>
+        <Link to="/login">
+          <button>Login</button>
+        </Link>
+        <Link to="/signup">
+          <button>Sign In</button>
+        </Link>
       </div>
     </header>
-    </React.Fragment>
   );
 }
 
