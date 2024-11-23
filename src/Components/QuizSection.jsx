@@ -16,7 +16,7 @@ function QuizSection() {
         "D. 4",
         "E. 5"
       ],
-      answer: "C. 3"
+      answer: "A. 1"
     },
     {
       id: 2,
@@ -36,48 +36,90 @@ function QuizSection() {
     {
       id: 3,
       question: "Gagasan utama yang tepat pada paragraf 2 adalah….",
-      options: ["A. Waktu untuk mengonsumsi suplemen selama Ramadan","B.	Suplemen sebagai pendamping makanan saat Ramadan", "C.	Mengonsumsi suplemen harus dibarengi nutrisi lain", "D.	Manfaat mengonsumsi suplemen selama Ramadan", "E.	Kurangnya asupan nutrisi selama puasa Ramadan "],
+      options: [
+        "A. Waktu untuk mengonsumsi suplemen selama Ramadan",
+        "B.	Suplemen sebagai pendamping makanan saat Ramadan",
+        "C.	Mengonsumsi suplemen harus dibarengi nutrisi lain", 
+        "D.	Manfaat mengonsumsi suplemen selama Ramadan", 
+        "E.	Kurangnya asupan nutrisi selama puasa Ramadan "
+        ],
       answer: "A. Waktu untuk mengonsumsi suplemen selama Ramadan",
     },
     {
       id: 4,
       question: "Penggabungan yang tepat untuk kalimat (11) dan (12) teks tersebut adalah… ",
-      options: ["A.	Khusus untuk imunomodulator, Anda bisa mengonsumsinya setiap hari antara 8—16 minggu dengan jeda dua minggu meskipun menghindari kemungkinan timbulnya efek samping walaupun belum ada bukti kuat mengenai hal ini. ","B.	Khusus untuk imunomodulator, Anda bisa mengonsumsinya setiap hari antara 8—16 minggu dengan jeda dua minggu karena menghindari kemungkinan timbulnya efek samping walaupun belum ada bukti kuat mengenai hal ini. ", "C.	Khusus untuk imunomodulator, Anda bisa mengonsumsinya setiap hari antara 8—16 minggu dengan jeda dua minggu untuk menghindari kemungkinan timbulnya efek samping walaupun belum ada bukti kuat mengenai hal ini. ", "D.	Khusus untuk imunomodulator, Anda bisa mengonsumsinya setiap hari antara 8—16 minggu dengan jeda dua minggu, seperti menghindari kemungkinan timbulnya efek samping walaupun belum ada bukti kuat mengenai hal ini. ", "E.	Khusus untuk imunomodulator, Anda bisa mengonsumsinya setiap hari antara 8—16 minggu dengan jeda dua minggu bila menghindari kemungkinan timbulnya efek samping walaupun belum ada bukti kuat mengenai hal ini."],
+      options: [
+        "A.	Khusus untuk imunomodulator, Anda bisa mengonsumsinya setiap hari antara 8—16 minggu dengan jeda dua minggu meskipun menghindari kemungkinan timbulnya efek samping walaupun belum ada bukti kuat mengenai hal ini. ",
+        "B.	Khusus untuk imunomodulator, Anda bisa mengonsumsinya setiap hari antara 8—16 minggu dengan jeda dua minggu karena menghindari kemungkinan timbulnya efek samping walaupun belum ada bukti kuat mengenai hal ini. ", 
+        "C.	Khusus untuk imunomodulator, Anda bisa mengonsumsinya setiap hari antara 8—16 minggu dengan jeda dua minggu untuk menghindari kemungkinan timbulnya efek samping walaupun belum ada bukti kuat mengenai hal ini. ", 
+        "D.	Khusus untuk imunomodulator, Anda bisa mengonsumsinya setiap hari antara 8—16 minggu dengan jeda dua minggu, seperti menghindari kemungkinan timbulnya efek samping walaupun belum ada bukti kuat mengenai hal ini. ", 
+        "E.	Khusus untuk imunomodulator, Anda bisa mengonsumsinya setiap hari antara 8—16 minggu dengan jeda dua minggu bila menghindari kemungkinan timbulnya efek samping walaupun belum ada bukti kuat mengenai hal ini."
+      ],
       answer: "C.	Khusus untuk imunomodulator, Anda bisa mengonsumsinya setiap hari antara 8—16 minggu dengan jeda dua minggu untuk menghindari kemungkinan timbulnya efek samping walaupun belum ada bukti kuat mengenai hal ini. ",
     },
     {
       id: 5,
       question: "Hubungan yang tampak pada kalimat (11) dan (12) adalah…. ",
-      options: ["A. Sebab akibat","B. Pertentangan", "C. Perluasan", "D. Tujuan", "E. Waktu "],
+      options: [
+        "A. Sebab akibat",
+        "B. Pertentangan", 
+        "C. Perluasan", 
+        "D. Tujuan", 
+        "E. Waktu "
+      ],
       answer: "D. Tujuan",
     },
     {
       id: 6,
       question: "Usaha pembangunan berencana yang pada umumnya dilakukan oleh hampir semua negara yang sedang berkembang itu memang bertujuan untuk meningkatkan kemakmuran serta mengejar kemajuan teknologi dan ilmu pengetahuan.",
       quizSection: "Gagasan utama kalimat di atas adalah ... ",
-      options: ["A.	Usaha pembangunan berencana dilakukan oleh hampir semua negara.", "B.	Usaha pembangunan berencana memang bertujuan. ", "C.	Usaha pembangunan berencana bertujuan meningkatkan kemakmuran.", "D.	Usaha pembangunan berencana mengejar kemajuan teknologi dan ilmu pengetahuan. ","E.	Usaha pembangunan berencana di hampir semua negara yang sedang berkembang."],
-      answer: "Usaha pembangunan berencana bertujuan meningkatkan kemakmuran."
+      options: [
+        "A.	Usaha pembangunan berencana dilakukan oleh hampir semua negara.", 
+        "B.	Usaha pembangunan berencana memang bertujuan. ", 
+        "C.	Usaha pembangunan berencana bertujuan meningkatkan kemakmuran.", 
+        "D.	Usaha pembangunan berencana mengejar kemajuan teknologi dan ilmu pengetahuan. ",
+        "E.	Usaha pembangunan berencana di hampir semua negara yang sedang berkembang."
+      ],
+      answer: "C.	Usaha pembangunan berencana bertujuan meningkatkan kemakmuran."
     },
     {
       id: 7,
       question: "Gunungan yang terbuat dari berbagai buah-buahan dan sayur-sayuran diarak sepanjang jalan. Gunungan itu pun akhirnya sampai di alun-alun di depan keraton. Prosesi diakhiri dengan perebutan isi gunungan oleh masyarakat yang hadir di tempat itu. ",
       quizSection: "Prosesi dalam paragraf tersebut berarti ....",
-      options: ["A.	proses acara ", "B.	arak-arakan ", "C.	kegiatan ", "D.	upacara ","E.	perjalanan"],
-      answer: "arak-arakan"
+      options: [
+        "A.	proses acara ", 
+        "B.	arak-arakan ", 
+        "C.	kegiatan ", 
+        "D.	upacara ",
+        "E.	perjalanan"
+      ],
+      answer: "B. arak-arakan"
     },
     {
       id: 8,
       question: "Ketika para pejuang kemerdekaan muncul, bahasa Melayu menjadi pilihan dalam berkomunikasi. Media massa juga menggunakan bahasa ini. Tokoh-tokoh pergerakan kemudian mengenalkan istilah bahasa Indonesia. Pada Februari 1926 wartawan Mohammad Tabrani sudah menulis tentang perlunya bahasa Indonesia–bukan bahasa Melayu–sebagai perekat negara dan bangsa yang dicita-citakan bersama. “Agar orang yang berbahasa selain Melayu tidak merasa dijajah oleh bahasa Melayu, maka gunakan saja bahasa Indonesia,” begitu pernyataan dalam tulisannya di koran Hindia Baroe.  ",
       quizSection: "Kata perekat dalam paragraf di atas dapat diganti dengan kata-kata berikut, kecuali .... ",
-      options: ["A.	pelekap ", "B. pelekat ", "C.	perapat ", "D.	penguikat ","E.	pelengket"],
-      answer: "pelekap"
+      options: [
+        "A.	pelekap ", 
+        "B. pelekat ", 
+        "C.	perapat ", 
+        "D.	penguikat ",
+        "E.	pelengket"
+      ],
+      answer: "A. pelekap"
     },
     {
       id: 9,
       question: "Gunungan yang terbuat dari berbagai buah-buahan dan sayur-sayuran diarak sepanjang jalan. Gunungan itu pun akhirnya sampai di alun-alun di depan keraton. Prosesi diakhiri dengan perebutan isi gunungan oleh masyarakat yang hadir di tempat itu. ",
       quizSection: "Penggunaan huruf kapital dalam kalimat berikut salah, kecuali.... ",
-      options: ["A.	Untuk menjadi Kepala Daerah, sejumlah persyaratan harus dipenuhi.", "B.	Saat ini Registrasi Haji harus dilakukan jauh sebelumnya.", "C.	aku dilahirkan pada tahun 1990 di Wilayah Indonesia Timur. ", "D.	Hai, Sahabat, apa kabarmu?","E.	Kita harus menyayangi Ibu dan Bapak kita yang mengasuh kita sejak bayi."],
-      answer: "Hai, Sahabat, apa kabarmu?"
+      options: [
+        "A.	Untuk menjadi Kepala Daerah, sejumlah persyaratan harus dipenuhi.", 
+        "B.	Saat ini Registrasi Haji harus dilakukan jauh sebelumnya.", 
+        "C.	aku dilahirkan pada tahun 1990 di Wilayah Indonesia Timur. ", 
+        "D.	Hai, Sahabat, apa kabarmu?",
+        "E.	Kita harus menyayangi Ibu dan Bapak kita yang mengasuh kita sejak bayi."
+      ],
+      answer: "D. Hai, Sahabat, apa kabarmu?"
     },
     {
       id: 10,
