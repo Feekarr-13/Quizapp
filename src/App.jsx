@@ -1,12 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './Page/HomePage'; // Impor HomePage
+import QuizPage from "./Page/QuizPage";
 import Login from './Page/Login';
 import SignUp from './Page/SignUp';
 import './App.css';
 import AboutUs from './Components/AboutUs';
-import QuizPage from './Components/QuizPage';
-
-
 
 function App() {
   return (
@@ -15,13 +13,13 @@ function App() {
         {/* Route untuk halaman utama */}
         <Route path="/" element={<HomePage />} /> {/* Gunakan HomePage di sini */}
         <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/quiz" element={<QuizPage />} /> {/* Halaman quiz */}
 
         {/* Route untuk halaman login */}
         <Route path="/Login" element={<Login />} />
 
         {/* Route untuk halaman sign-up */}
         <Route path="/Signup" element={<SignUp />} />
-        <Route path="/Quiz" element={<QuizPage />} />
       </Routes>
     </Router>
   );

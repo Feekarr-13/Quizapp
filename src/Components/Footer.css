@@ -3,11 +3,12 @@
 .footer {
     background-color: #f5f5f5;
     padding: 40px;
-    font-family: Arial, sans-serif;
+    font-family: Poppins;
     color: #333;
 }
 
 .footer-container {
+    font-family: Poppins;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -20,6 +21,7 @@
 }
 
 .footer-section ul {
+    font-family: Poppins;
     list-style-type: none;
     /* Menghilangkan bullet points */
     padding-left: 0;
@@ -35,6 +37,7 @@
 /* Container untuk logo dan teks */
 
 .logo-container {
+    font-family: Poppins;
     display: flex;
     align-items: center;
     /* Agar logo dan teks vertikal di tengah */
@@ -55,6 +58,7 @@
 /* Style untuk teks "Quiz App" */
 
 .app-title {
+    font-family: Poppins;
     font-size: 24px;
     font-weight: bold;
     color: #333;
@@ -64,6 +68,7 @@
 /* Mengatur section payment */
 
 .payment {
+    font-family: Poppins;
     display: flex;
     flex-direction: column;
 }
@@ -96,11 +101,13 @@
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
+    font-family: Poppins;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .footer-bottom p {
+    font-family: Poppins;
     margin: 0;
     font-size: 14px;
     color: #777;
@@ -108,6 +115,7 @@
 
 .footer-links a {
     margin-left: 15px;
+    font-family: Poppins;
     color: #333;
     text-decoration: none;
 }

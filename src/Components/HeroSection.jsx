@@ -12,7 +12,7 @@ function HeroSection() {
   return (
     <section className="hero">
       <div className="hero-text">
-        <h1>Aplikasi Quiz Berbasis Web Soal Ujian Praktis dan Efesien</h1>
+        <h1>Aplikasi Quiz Berbasis Web Soal Ujian Praktis dan Efisien</h1>
         <p>Uji Kompetensi siswa jadi lebih mudah dengan fitur khusus yang sesuai dengan kebutuhan sekolah.</p>
         <button className="start-quiz-btn" onClick={startQuiz}>Start Quiz</button>
       </div>

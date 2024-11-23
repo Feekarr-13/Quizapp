@@ -2,14 +2,23 @@
 
 .header {
     scroll-behavior: smooth;
-}
-
-.header {
+    position: fixed;
+    /* Membuat header tetap di atas */
+    top: 0;
+    /* Memastikan header di bagian paling atas */
+    left: 0;
+    /* Header menempel ke sisi kiri */
+    width: 100%;
+    /* Menutupi lebar penuh layar */
+    z-index: 1000;
+    /* Prioritas elemen di atas elemen lain */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background: linear-gradient(45deg, #5c3aff, #9048fc);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Menambahkan bayangan agar terlihat lebih elegan */
 }
 
 
@@ -30,12 +39,12 @@
 }
 
 
-/* Menambahkan styling untuk nama aplikasi di sebelah logo */
+/* Styling nama aplikasi di sebelah logo */
 
 .app-name {
     margin-left: 10px;
     /* Beri jarak antara logo dan teks */
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
     /* Warna teks */
@@ -44,110 +53,13 @@
 
 /* Menyusun link navigasi */
 
-
-/* Header.css */
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #4a4a4a;
-    /* Contoh warna latar belakang header */
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.app-name {
-    margin-left: 10px;
-    font-size: 24px;
-    color: white;
-    /* Warna teks untuk nama aplikasi */
-}
-
 .nav {
-    display: flex;
-    align-items: center;
-}
-
-.nav-links {
-    list-style: none;
     display: flex;
     gap: 20px;
 }
 
-.auth-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-
-/* Gaya untuk dropdown */
-
-.dropdown select {
-    background-color: #6f42c1;
-    /* Warna latar belakang dropdown */
-    color: white;
-    /* Warna teks dropdown */
-    border: none;
-    /* Menghapus border default */
-    padding: 10px;
-    /* Padding di dalam dropdown */
-    border-radius: 5px;
-    /* Membulatkan sudut dropdown */
-    cursor: pointer;
-    /* Mengubah cursor saat hover */
-    font-weight: bold;
-    font-size: 16px;
-}
-
-
-/* Gaya untuk opsi dropdown saat hover */
-
-.dropdown select option {
-    background-color: #FFFFFF;
-    /* Warna latar belakang opsi */
-    color: black;
-    /* Warna teks opsi */
-}
-
-
-/* Mengubah warna saat dropdown dibuka */
-
-.dropdown select:focus {
-    outline: none;
-    /* Menghapus outline default saat dropdown fokus */
-}
-
-
-/* Mengatur tombol login dan sign-in */
-
-.auth-buttons button {
-    margin-left: 10px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    background-color: #6648b1;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-
-/* Hover effect untuk tombol login dan sign-in */
-
-.auth-buttons button:hover {
-    background-color: #FFD600;
-    color: #4A148C;
-}
-
-
-/* Menyusun link navigasi */
-
-.nav {
+.nav-links {
+    list-style: none;
     display: flex;
     gap: 20px;
 }
@@ -159,18 +71,24 @@
     font-weight: bold;
 }
 
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
 
 /* Mengatur tombol login dan sign-in */
 
-.auth-buttons button {
-    margin-left: 10px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    background-color: white;
-    color: #4A148C;
-    font-weight: bold;
-    border-radius: 5px;
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+    margin-right: 30px;
+    /* Tambahkan jarak dari tepi kanan */
+}
+
+.header {
+    padding-right: 30px;
+    /* Tambahkan padding kanan untuk seluruh header */
 }
 
 
@@ -180,3 +98,38 @@
     background-color: #FFD600;
     color: #4A148C;
 }
+
+@media (max-width: 768px) {
+    .auth-buttons {
+        margin-right: 10px;
+        /* Kurangi jarak pada layar kecil */
+    }
+    .header {
+        padding-right: 10px;
+        /* Sesuaikan padding untuk layar kecil */
+    }
+}
+
+
+/* Gaya untuk dropdown */
+
+
+/* .dropdown select {
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.dropdown select option {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.dropdown select:focus {
+    outline: none;
+} */

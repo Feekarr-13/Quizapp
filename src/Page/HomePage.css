@@ -1,9 +1,3 @@
-/* Mengatur tampilan umum header */
-
-
-/* In HomePage.css or other component-specific CSS files */
-
-
 /* Mobile Styles */
 
 @media (max-width: 600px) {
@@ -46,6 +40,11 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+main {
+    margin-top: 80px;
+    /* Sesuaikan dengan tinggi header */
 }
 
 .header {

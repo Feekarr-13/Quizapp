@@ -6,6 +6,7 @@
     padding: 100px 0;
     text-align: center;
     display: flex;
+    font-family: Poppins;
     justify-content: center;
     /* Untuk memastikan elemen di dalamnya berada di tengah */
 }

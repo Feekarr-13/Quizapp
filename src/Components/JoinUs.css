@@ -3,11 +3,12 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 100px;
-    font-family: Arial, sans-serif;
+    font-family: Poppins;
     text-align: justify;
 }
 
 .join-us-image {
+    font-family: Poppins;
     position: relative;
     width: 1000%;
     /* Fixed width to prevent image from disappearing */
@@ -17,6 +18,7 @@
 }
 
 .join-us-image img {
+    font-family: Poppins;
     width: 100%;
     height: auto;
 }
@@ -25,6 +27,7 @@
     position: absolute;
     top: -30px;
     left: 50px;
+    font-family: Poppins;
     font-size: 2rem;
     font-weight: bold;
     color: #333;
@@ -36,11 +39,12 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 40px;
-    font-family: Arial, sans-serif;
+    font-family: Poppins;
     text-align: justify;
 }
 
 .join-us-title {
+    font-family: Poppins;
     display: flex;
     width: 591px;
     flex-direction: column;
@@ -49,6 +53,7 @@
 }
 
 .join-us-right {
+    font-family: Poppins;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -59,6 +64,7 @@
 }
 
 .join-us-right h3 {
+    font-family: Poppins;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -66,6 +72,7 @@
 }
 
 .join-us-text {
+    font-family: Poppins;
     font-size: 0.9rem;
     color: #333;
     line-height: 1.7;
@@ -76,21 +83,24 @@
 }
 
 .join-button {
-    background-color: #FFD700;
-    color: #000;
-    padding: 0.5rem 1.5rem;
-    border-radius: 25px;
-    border: none;
-    cursor: pointer;
-    font-size: 0.9rem;
+    display: inline-block;
+    background-color: #25d366;
+    /* Warna hijau WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    font-family: Poppins;
+    font-size: 16px;
     font-weight: bold;
-    margin-top: 1rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    text-decoration: none;
+    /* Hilangkan garis bawah */
+    border-radius: 5px;
     transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .join-button:hover {
-    background-color: #e6c200;
+    background-color: #1ebe57;
 }
 
 
@@ -98,6 +108,7 @@
 
 @media (max-width: 768px) {
     .join-us-container {
+        font-family: Poppins;
         flex-direction: column;
         align-items: center;
     }
@@ -107,19 +118,23 @@
         margin-right: 0;
     }
     .join-us-title {
+        font-family: Poppins;
         margin-left: 0;
         font-size: 1.5rem;
     }
     .join-us-right {
+        font-family: Poppins;
         margin-left: 0;
         padding-left: 1rem;
         width: 100%;
         /* Make it fit the screen width */
     }
     .join-us-text {
+        font-family: Poppins;
         font-size: 0.8rem;
     }
     .join-button {
+        font-family: Poppins;
         margin-left: 0;
         margin-top: 1rem;
     }

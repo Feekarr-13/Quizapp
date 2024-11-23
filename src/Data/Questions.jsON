@@ -1,0 +1,16 @@
+[{
+        "question": "Apa ibu kota Indonesia?",
+        "options": ["Jakarta", "Bandung", "Surabaya", "Medan"],
+        "answer": "Jakarta"
+    },
+    {
+        "question": "Siapa presiden pertama Indonesia?",
+        "options": ["Soekarno", "Soeharto", "Jokowi", "B.J. Habibie"],
+        "answer": "Soekarno"
+    },
+    {
+        "question": "Apa warna bendera Indonesia?",
+        "options": ["Merah Putih", "Merah Biru", "Putih Hitam", "Hijau Putih"],
+        "answer": "Merah Putih"
+    }
+]

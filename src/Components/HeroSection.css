@@ -15,18 +15,21 @@
 }
 
 .hero-text {
+    font-family: Poppins;
     flex: 1;
     margin-right: 20px;
     z-index: 2;
 }
 
 .hero-text h1 {
+    font-family: Poppins;
     font-size: 2.5rem;
     line-height: 1.2;
     margin-bottom: 20px;
 }
 
 .hero-text p {
+    font-family: Poppins;
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
@@ -35,7 +38,8 @@
     padding: 10px 20px;
     background-color: #ffce00;
     border: none;
-    cursor: pointer;
+    font-weight: bold;
+    font-family: Poppins;
     font-size: 1rem;
     z-index: 2;
 }
@@ -79,9 +83,9 @@
 }
 
 :root {
-    --bar-1-height: 350px;
-    --bar-2-height: 400px;
-    --bar-3-height: 450px;
+    --bar-1-height: 300px;
+    --bar-2-height: 3500px;
+    --bar-3-height: 400px;
 }
 
 .bar-1 {
@@ -116,6 +120,7 @@
         font-size: 2rem;
     }
     .start-quiz-btn {
+        font-family: Poppins;
         font-size: 0.9rem;
     }
 }
