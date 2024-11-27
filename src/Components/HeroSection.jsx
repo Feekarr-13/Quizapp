@@ -1,12 +1,22 @@
 import './HeroSection.css';
-import { useNavigate } from 'react-router-dom'; // Mengimpor useNavigate untuk navigasi
+import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
 
 function HeroSection() {
-  const navigate = useNavigate(); // Hook untuk navigasi
+  const navigate = useNavigate(); // Hook for navigation
 
-  // Fungsi untuk mengarahkan ke halaman quiz
+  // Function to check if the user is logged in
+  const isAuthenticated = () => {
+    // Replace this with your actual authentication check
+    return localStorage.getItem('isLoggedIn') === 'true'; // Example check
+  };
+
+  // Function to navigate to the quiz page
   const startQuiz = () => {
-    navigate('/quiz'); // Arahkan ke halaman quiz
+    if (isAuthenticated()) {
+      navigate('/quiz'); // Navigate to quiz page if authenticated
+    } else {
+      navigate('/login'); // Redirect to login page if not authenticated
+    }
   };
 
   return (
