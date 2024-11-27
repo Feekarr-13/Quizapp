@@ -6,7 +6,7 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate(); // Hook untuk navigasi
 
   // Toggle untuk visibilitas password
   const togglePasswordVisibility = () => {
@@ -18,32 +18,27 @@ const Login = () => {
     event.preventDefault(); // Prevent the default form submission
 
     // Kirim username dan password ke backend untuk diverifikasi
-    fetch("https://your-backend-domain.com/auth/login", {
+    fetch("http://localhost:5000/auth/login", {  // Pastikan URL ini sesuai dengan server Anda
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ username, password }),
+      body: JSON.stringify({ username, password }), // Menyertakan username dan password yang dimasukkan
     })
       .then((res) => res.json())
       .then((data) => {
         console.log("Server response:", data);
-        // Arahkan pengguna ke halaman quiz jika berhasil login
         if (data.success) {
-          // Optionally store the authentication state
-          localStorage.setItem('isLoggedIn', 'true'); // Set login state
-          
-          // Redirect to quiz page
-          navigate('/quiz'); // Change to '/quiz' for quiz page
+          // Jika login berhasil, arahkan ke halaman quiz
+          navigate('/quiz');
         } else {
-          // Handle login error
-          console.error("Login failed:", data.message);
-          alert(data.message || "Login failed. Please try again."); // Show error message
+          // Menampilkan pesan error jika login gagal
+          alert(data.message || "Login failed. Please try again.");
         }
       })
       .catch((err) => {
         console.error("Error during login:", err);
-        alert("An error occurred. Please try again."); // Show error message
+        alert("An error occurred. Please try again.");
       });
-  };
+};
 
   return (
     <div className="page-container" data-aos="fade-up">
