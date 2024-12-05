@@ -38,7 +38,7 @@ const Login = () => {
         console.error("Error during login:", err);
         alert("An error occurred. Please try again.");
       });
-};
+  };
 
   return (
     <div className="page-container" data-aos="fade-up">

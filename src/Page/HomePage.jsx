@@ -11,6 +11,7 @@ import ContactUs from '../Components/ContactUs';
 import Footer from '../Components/Footer';
 import "./HomePage.css";
 
+
 function HomePage() {
   useEffect(() => {
     // Inisialisasi AOS (animasi scroll)
